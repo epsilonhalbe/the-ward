@@ -1,8 +1,8 @@
 name: Build and Release
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "*"
 
 jobs:
   build_artifact:
@@ -40,10 +40,7 @@ jobs:
           name: PDF
 
       - name: Set release tag
-        run: |
-          latestTag=$(git tag -l 'v*' | sed 's/^v//' | sort -nr | head -n 1)
-          newTag="v$((latestTag + 1))"
-          echo "RELEASE_TAG=$newTag" >> $GITHUB_ENV
+        run: echo "RELEASE_TAG=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
 
       - name: Create release
         id: create_release
