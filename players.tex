@@ -1,0 +1,25 @@
+% \documentclass[bg-full, legalfonts]{resources/stylesheets/kult}
+% \documentclass[bg-print, legalfonts]{resources/stylesheets/kult}
+\documentclass[bg-full, freefonts]{resources/stylesheets/kult}
+% \documentclass[bg-print, freefonts]{resources/stylesheets/kult}
+
+\include{resources/preamble.tex}
+
+\title{The Ward\\\huge%
+  Spoiler Free\\
+  Players Section%
+}
+
+% DOCUMENT ---------------------------------------------------------------------
+\begin{document}
+
+\input{chapters/intro.tex}
+\input{chapters/pre-gens.tex}
+\input{chapters/player-map.tex}
+
+\clearpage % }}}
+\phantomsection%
+\printbibliography[title={Bibliography},heading=bibintoc]
+\clearpage
+\printindex
+\end{document}
