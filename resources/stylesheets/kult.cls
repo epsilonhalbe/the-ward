@@ -198,10 +198,10 @@
 \DeclareOption{bg-full}{}
 
 \DeclareOption{bg-print}{
-  \renewcommand\BGLeft{\backgroundsetup{contents={\includegraphics[]{kult/res/bg_left_print.jpg}}}\BgMaterial}
-  \renewcommand\BGRight{\backgroundsetup{contents={\includegraphics[]{kult/res/bg_right_print.jpg}}}\BgMaterial}
-  \renewcommand\BGSection{\backgroundsetup{contents={\includegraphics[]{kult/res/bg_section_print.jpg}}}\BgMaterial}
-  \renewcommand\BGTitle{\backgroundsetup{contents={\includegraphics[]{kult/res/bg_title_print.jpg}}}\BgMaterial}
+  \renewcommand\BGLeft{\backgroundsetup{contents={\includegraphics[]{resources/stylesheets/res/bg_left_print.jpg}}}\BgMaterial}
+  \renewcommand\BGRight{\backgroundsetup{contents={\includegraphics[]{resources/stylesheets/res/bg_right_print.jpg}}}\BgMaterial}
+  \renewcommand\BGSection{\backgroundsetup{contents={\includegraphics[]{resources/stylesheets/res/bg_section_print.jpg}}}\BgMaterial}
+  \renewcommand\BGTitle{\backgroundsetup{contents={\includegraphics[]{resources/stylesheets/res/bg_title_print.jpg}}}\BgMaterial}
 
   \definecolor{KULTcover}{named}{KULTtext}
 }
@@ -210,7 +210,7 @@
   \renewcommand\BGLeft{\backgroundsetup{contents={}}\BgMaterial}%
   \renewcommand\BGRight{\backgroundsetup{contents={}}\BgMaterial}%
   \renewcommand\BGSection{\backgroundsetup{contents={}}\BgMaterial}%
-  \renewcommand\BGTitle{\backgroundsetup{contents={\includegraphics[]{kult/res/bg_title_logo.jpg}}}\BgMaterial}
+  \renewcommand\BGTitle{\backgroundsetup{contents={\includegraphics[]{resources/stylesheets/res/bg_title_logo.jpg}}}\BgMaterial}
 
   \definecolor{KULTcover}{named}{KULTtext}
 }

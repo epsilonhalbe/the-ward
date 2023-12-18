@@ -19,6 +19,8 @@ jobs:
           root_file: |
             game-master.tex
             players.tex
+            game-master.print.tex
+            players.print.tex
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
