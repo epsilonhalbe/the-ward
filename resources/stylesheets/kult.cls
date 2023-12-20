@@ -182,9 +182,9 @@
 \pagestyle{fancy}
 \fancyhf{}%
 \renewcommand{\headrulewidth}{0pt}%
-\setlength\footskip{1.4cm}%
-\fancyheadoffset[rof,lef]{17mm}%
-\fancyfoot[RO,LE]{\color{KULTgold} \huge \headingfont \thepage}%
+\setlength\footskip{2.0cm}%
+\fancyheadoffset[rof,lef]{15mm}%
+\fancyfoot[RO, LE]{\color{KULTgold} \huge \headingfont \makebox[15pt][c]{\thepage}}%
 
 % table of contents
 \renewcommand\tableofcontents{%
