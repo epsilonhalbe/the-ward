@@ -53,8 +53,8 @@
 \newfontface\bodyfontlight[Path=resources/stylesheets/fonts/]{Ubuntu-R.ttf}
 \newfontface\bodyfontmedium[Path=resources/stylesheets/fonts/]{Ubuntu-M.ttf}
 \newfontface\bodyfontbold[Path=resources/stylesheets/fonts/]{Ubuntu-B.ttf}
-\newfontface\headingfont[Path=resources/stylesheets/fonts/]{Ubuntu-B.ttf}
-\newfontface\ornatefont[Path=resources/stylesheets/fonts/]{Ubuntu-C.ttf}
+\newfontface\headingfont[Path=resources/stylesheets/fonts/]{Mathison-Bold.otf}
+\newfontface\ornatefont[Path=resources/stylesheets/fonts/]{Swistblnk-Moalang-Melintang.ttf}
 
 % dropcaps
 \renewcommand{\LettrineFontHook}{\color{KULTred} \ornatefont}
@@ -77,7 +77,7 @@
 \newcommand\goldbf[1]{\textcolor{KULTgold}{\textbf{#1}}}
 
 % lists
-\renewcommand\labelitemi{\color{KULTgold} \headingfont \char"25CA}
+\renewcommand\labelitemi{\color{KULTgold} \bodyfontbold \char"25CA}
 
 \setlist[description,1]{leftmargin=0pt,labelindent=0pt} % means nested descriptions won't work
 
