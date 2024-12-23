@@ -1,16 +1,13 @@
-= GM Section
-<sec:gm_section>
-== About this scenario
-<sub:about_this_scenario>
-=== Theme
-<ssub:theme>
+= GM Section<gm_section>
+== About this scenario<about_this_scenario>
+=== Theme<theme>
 The theme of this scenario is life and death and the multiple things
 that exist in between those extremes.
 
 - The player characters start as patients in a coma, kind of at the
   border between life and death.
 
-- #link(<ssub:joanna_o_banion>)[Joanna O’Banion];~(p.~) is a vampire,
+- #link(<joanna_o_banion>)[Joanna O’Banion];~(p.~) is a vampire,
   obsessed with death.
 
 - Dean Moran~(p.~) is her husband, cruel and a sociopath even before he
@@ -25,9 +22,8 @@ that exist in between those extremes.
   zombie, or a golem created by Joanna to serve, a creature made from
   dead materials to form a pale image of something alive.
 
-=== Power
-<ssub:power>
-The death angel #strong[Golab];~@KULT:core[p.~215] associated with the
+=== Power<power>
+The death angel #strong[Golab];~@KULT-core[p.~215] associated with the
 principle of torment.
 
 They are influencing Joanna to do her experiments, letting her come
@@ -44,11 +40,10 @@ Should he wake up, the first thing he will do, is devour his wife in a
 frenzy, thereby absorb her soul into his body, where they will share
 their secrets (and those are many) and eternity.
 
-== Using this scenario
-<sub:using_this_scenario>
+== Using this scenario<using_this_scenario>
 This scenario was made for Virtual Horror Con 2021 and should last 2–4
 players about 4–5 hours including filling in the character skeletons
-(see #link(<sec:pre_made_characters>)[characters];) and some 20 minutes
+(see #link(<pre_made_characters>)[characters];) and some 20 minutes
 of chat/aftercare.
 
 I advise you, even when you know your players, to get them to fill the
@@ -63,14 +58,11 @@ the right game for them if there are too many red lines.
 
 Thank you for running this scenario and taking this advice.
 
-=== Game structure
-<ssub:game_structure>
+=== Game structure<game_structure>
 The structure is fairly simple:
 
-== NPCs
-<sub:npcs>
-=== Dean Moran
-<ssub:dean_moran>
+== NPCs<npcs>
+=== Dean Moran<dean_moran>
 Dean Moran is a vampire and in torpor for the last 150 years he is a
 powerful and violent dreamer, so some of his dreams spill over to the
 players in the ward. If Dean wakes up it is going to be a slaughter
@@ -100,8 +92,7 @@ him. Bested in a duel and mortally wounded he was found by someone or
 rather something, he made a pact, paying with the majority of his sanity
 and the ability to ever see the sun again.
 
-==== $diamond.stroked.small$~Combat\[2\]
-<diamond-combat2>
+==== $diamond.stroked.small$~Combat\[2\]<diamond-combat2>
 - Knock over \[+0\]
 
 - Punch \[+1\]
@@ -135,8 +126,7 @@ Health:
   the souls of everyone he killed happily see him return and his soul
   screaming in a silent scream.
 
-=== Joanna O’Banion
-<ssub:joanna_o_banion>
+=== Joanna O’Banion<joanna_o_banion>
 Joanna O’Banion is a vampire and has been in Chicago since the days of
 Al Capone, travelling with her husbands corpse in hope of a cure for his
 state of torpor. She makes detailed notes about her "experiments" some
@@ -158,7 +148,7 @@ were in and seeing the orderly or Joanna herself.
 
 Her constant experimentation has brought the 5#super[th] floor of
 Chicago central hospital closer and closer to
-#strong[Inferno];~@KULT:core[p.~314];, by successfully waking up the
+#strong[Inferno];~@KULT-core[p.~314];, by successfully waking up the
 protagonists the floor is now completely embedded in #strong[Inferno];,
 she has managed to seal the floor off to its denizens, by barricading
 all entrances and exits but those barriers are unstable and "glitchy",
@@ -181,8 +171,7 @@ play cat and mouse/hide and seek - to satisfy her promise to study
 torments (worshipping Golab). Obviously not telling them the latter bit,
 but lying through her pretty teeth.
 
-==== $diamond.stroked.small$~Magic\[2\]
-<diamond-magic2>
+==== $diamond.stroked.small$~Magic\[2\]<diamond-magic2>
 #block[
 A spectre is pulled from the fabric of inferno, players~:
 
@@ -201,8 +190,7 @@ dealing , with sharp claws. When destroyed it turns back into spectral
 form.
 
 ]
-==== $diamond.stroked.small$~Combat\[1\]
-<diamond-combat1>
+==== $diamond.stroked.small$~Combat\[1\]<diamond-combat1>
 - Knock over \[+0\]
 
 - Punch \[+1\]
@@ -231,8 +219,7 @@ Health:
   the souls of everyone he killed happily see him return and his soul
   screaming in a silent scream.
 
-=== Orderly
-<ssub:orderly>
+=== Orderly<orderly>
 The orderly is a construct created by Joanna, to practise her
 necromantic arts as well as to have a servant to help her with the
 maintenance of the ward. It is patrolling the ward pushing a projection
@@ -276,8 +263,7 @@ Benjamin K. Miller once found Joanna torturing a comatose patient,
 confronted her and didn’t survive that, and now has to serve her.
 ]
 
-==== $diamond.stroked.small$~Combat\[2\]
-<diamond-combat2-1>
+==== $diamond.stroked.small$~Combat\[2\]<diamond-combat2-1>
 - Hook punch \[+1\]
 
 - Overhead hammer-fist blow \[+2\]
@@ -298,8 +284,7 @@ If the characters flee and hide, it will keep searching for a bit on the
 corridors only following into a room if it sees them hide in one or if
 the PCs made a lot of noise.
 
-=== Other Patients
-<ssub:other_patients>
+=== Other Patients<other_patients>
 #block[
 Sophie Liu (24) a talented climber, who had an accident in a climbing
 center, where her safety equipment malfunctioned, the fall was only a

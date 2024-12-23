@@ -1,10 +1,12 @@
 #import "./resources/preamble.typ" as kult
 #show: kult.template
 
-#counter(page).update(0)
-(#kult.pages.title)("The Ward", "Martin Heuschober")
+#counter(page).update(1)
+#kult.pages.title.with(
+  "The Ward",
+  "Martin Heuschober"
+)()
 
-#kult.pages.blank
 #kult.pages.blank
 #kult.pages.blank
 

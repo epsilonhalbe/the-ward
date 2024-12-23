@@ -1,14 +1,13 @@
-= Objects and Maps
-<sec:objects_and_maps>
+= Objects and Maps<objects_and_maps>
 == Objects
-<sub:objects>
+<objects>
 === IV drip
-<ssub:iv_drip>
+<iv_drip>
 When the patients wake up they’re hooked up to IV drips, which can be
 used as makeshift weapons with reach, dealing on a full success.
 
 === Keycard
-<ssub:keycard>
+<keycard>
 The orderly has a #strong[keycard] that opens every locked door in the
 ward.
 
@@ -20,7 +19,7 @@ ward.
 <keycard>
 
 === Pistol
-<ssub:pistol>
+<pistol>
 #figure(image("../resources/img/glock.png", width: 5.5cm),
   caption: [
     Pistol found in the only locked locker in the #strong[staff room]
@@ -31,10 +30,10 @@ ward.
 The gun belonged to the security guard, before he was turned into what
 he is now. There is also a driver’s license in the locker belonging to a
 Benjamin K. Miller, and the photo shows someone very similar looking to
-the #link(<ssub:orderly>)[orderly];, less bloated and grey though.
+the #link(<orderly>)[orderly];, less bloated and grey though.
 
 === Vials
-<ssub:vials>
+<vials>
 #figure(image("../resources/img/test tubes.png", width: 5.5cm),
   caption: [
     Vials of spinal fluid extracted for experimentation
@@ -54,10 +53,10 @@ When one of these vials is destroyed the PC named on the vial just dies
 instantaneously, which allows their spirit to leave the body. This will
 cost them for the traumatic experience of dying. The PC’s spirit can now
 try to find a new body in one of the
-#link(<ssub:other_patient_rooms>)[other patient rooms];~(p.~).
+#link(<other_patient_rooms>)[other patient rooms];~(p.~).
 
 === Documents
-<ssub:documents>
+<documents>
 #figure(image("../resources/img/journal.png", width: 5.5cm),
   caption: [
     Joanna O’Banion’s journal with the "experimental" procedures
@@ -65,7 +64,6 @@ try to find a new body in one of the
 )
 <notebook>
 
-== Map
-<sub:map>
+== Map<map>
 #box(image("../resources/img/the ward-gm-L.png", width: 19.5cm))
 #box(image("../resources/img/the ward-gm-R.png", width: 19.5cm))

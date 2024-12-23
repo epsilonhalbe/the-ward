@@ -1,7 +1,5 @@
-= Credits
-<sec:credits>
+= Credits<credits>
 == Credits
-<credits>
 - My partner Andressa for always being there for me and being awesome in
   general.
 
@@ -16,7 +14,7 @@
   #link("https://www.youtube.com/watch?v=MGxO88C5WFI")[20 Tips for Publishing Your RPG Adventure]
   was a great resource.
 
-- All who participated in creating~@KULT:tex.
+- All who participated in creating~@KULT-tex.
 
 - All art is made with free stock imagery from pexels.com,
   shutterstock.com, unsplash.com, and images in the public domain from

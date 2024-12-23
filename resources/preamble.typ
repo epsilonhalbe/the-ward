@@ -5,11 +5,11 @@
 #import "./lib/style.typ": *
 
 #let initialized(body) = dropcap(
-  height: 4,
+  height: 8,
   gap: 1mm,
   font: fonts.title,
   fill: colors.primary,
-  body
+  text(size: 10pt, body)
 )
 
 #let pages = (
@@ -74,25 +74,63 @@
   ]
 )
 
-#let move((
-  title,
-  label: l,
-  description,
-  attribute,
-  success,
-  complications,
-  failure,
-  more,
-)) = {
-  block(breakable: false)[
-    #heading(level:4)[#title #label(l)]
-    #block(stroke: (left: colors.secondary + 2pt), inset: (left: 2mm))[
-      #block[#description Roll #text(fill: colors.accent, [*+#attribute*])]
-      #block[
-        #terms.item("(15+)", success)
-        #terms.item("(10-14)", complications)
-        #terms.item("(9-)", failure)
+#let titlepage = (title, author, upd: datetime.today()) => [
+    #set document(
+      title: title,
+      author: (author),
+      keywords: ("KULT: divinity lost", "TTRPG", "scenario", "horror"),
+      date: upd
+    )
+    #set page(numbering: none, footer: none)
+    #counter(page).update(1)
+    #align(center + horizon)[
+      #text(
+        font: fonts.title,
+        weight: "bold",
+        fill: colors.secondary,
+        size: 80pt,
+        title,
+      ) <title>
+      #v(3cm)
+      #block(
+        stroke: (x: colors.secondary + 2pt),
+        fill: colors.dark.opacify(5%),
+        radius: 5mm,
+        outset: 1cm
+      )[
+        #set text(
+          font: fonts.normal,
+          fill: colors.light,
+          size: 18pt,
+        )
+        #text(size: 24pt, weight: "bold", author) \
+        #text(upd.display()) \
+        #text(sys.inputs.at("version", default: ""))
       ]
+    ]
+  ]
+
+#let move(
+  title: [],
+  tag: "",
+  description: [],
+  attribute: none,
+  success: none,
+  complications: none,
+  failure: none,
+  more: none,
+) = {
+  block(breakable: false)[
+    #heading(level:4)[#title #label(tag)]
+    #block(stroke: (left: colors.secondary + 2pt), inset: (left: 2mm))[
+      #block[#description#if(attribute != none){[ Roll #text(fill: colors.accent, [*+#attribute*])]}]
+      #if (success != none and complications != none and failure != none) {
+        block[
+          #terms.item("(15+)", success)
+          #terms.item("(10-14)", complications)
+          #terms.item("(9-)", failure)
+        ]
+      }
       #if (more != none) { more }
     ]
   ]
@@ -147,8 +185,8 @@
     paper: "a4",
     margin: (
       top: 1.5cm,
-      inside: 2cm,
-      outside: 1.5cm,
+      inside: 1cm,
+      outside: 2.0cm,
       bottom: 1.75cm
     ),
     footer-descent: 1cm,
@@ -156,7 +194,7 @@
       place(
         center + horizon,
         dy: -0.4cm,
-        dx: if calc.odd(here().page()) { -10cm } else { 10cm },
+        dx: if calc.even(here().page()) { -10.3cm } else { 10.3cm },
         block(width: 1.5cm, height: 1.5cm,
         align(center + horizon,
         text(
@@ -172,10 +210,9 @@
     background: context(
       if here().page() == 1 {
         image("img/bg_title.jpg")
-      } else if calc.odd(here().page()) {
+      } else if calc.even(here().page()) {
         image("img/bg_left.jpg")
       } else {
-        block(fill: colors.dark)
         image("img/bg_right.jpg")
       })
   )
@@ -185,7 +222,7 @@
   #set heading(numbering: "1.1")
   #show heading: it => {
     if (it.level == 1) {
-      pagebreak(weak:true, to: "odd")
+      pagebreak(weak:true, to: "even")
       set page(background: image("img/bg_section.jpg"))
       set text(
         font: fonts.title,
@@ -198,10 +235,10 @@
     if (it.level == 2) {
       set text(
         font: fonts.title,
-        fill: colors.primary,
+        fill: colors.dark.lighten(15%),
         size: 22pt,
       )
-      block(it.body)
+      block(width: 100%, stroke: (bottom: colors.primary + 2pt), inset: (bottom: 2mm), it.body)
     }
     if (it.level == 3) {
       block(text(size: 16pt, fill: colors.primary, it.body))

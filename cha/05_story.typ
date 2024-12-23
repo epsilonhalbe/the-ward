@@ -1,9 +1,6 @@
-= The Story
-<sec:the_story>
-== Coma
-<sub:coma>
-=== Getting to know the characters
-<ssub:getting_to_know_the_characters>
+= The Story<the_story>
+== Coma<coma>
+=== Getting to know the characters<getting_to_know_the_characters>
 The goal of this scene is to give each player a few minutes to get to
 know their own character, and build some "memories", such that they
 could start the first group scene with more confidence. In addition this
@@ -63,8 +60,7 @@ If you have time enough (4h or more) this should have the following arc:
   looking orderly, with dirty fingernails smelling of ashes and mould.
   The room (504) slowly fills with all the player characters.
 
-==== $diamond.stroked.small$~Cannibalism
-<disadv:cannibalism>
+==== $diamond.stroked.small$~Cannibalism<disadv:cannibalism>
 You have an unnatural hunger you crave for human meat whenever you see
 an open wound or organs roll .
 
@@ -84,15 +80,13 @@ Your hunger is overbearing you chomp down on the feast in front of you.
 This set of scenes is something all my players have highlighted as very
 intimate and enjoyable, so I wouldn’t skip this.
 
-== Optional: wake up timer
-<optional-wake-up-timer>
+== Optional: wake up timer<optional-wake-up-timer>
 If you want to hone in on the impending doom and hammer home that this
 game is on a timer, you can periodically "broadcast" nightmares and
 visions triggered by Dean Moran’s waking by Joanna, who is now rushing
 to do the same ritual with Dean as she did with our lovely PCs.
 
-== Wake up
-<sub:wake_up>
+== Wake up<wake_up>
 After the patients have been brought up to the ward, there is a drastic
 change in tone. The visitations of their close relations stop visiting
 triggering another~ roll, as this should feel like a significant loss.
@@ -107,11 +101,10 @@ give a some horror of not knowing exactly what happened. The
 protagonists can later learn about this in the patient files at the foot
 of their beds.
 
-== Exploration
-<sub:exploration>
+== Exploration<exploration>
 The constant experimentation of Joanna O’Banion has brought the
 5#super[th] floor of Chicago central hospital very close to
-#strong[Inferno];~@KULT:core[p.~314];. By successfully waking up the
+#strong[Inferno];~@KULT-core[p.~314];. By successfully waking up the
 protagonists the floor is now completely embedded in #strong[Inferno];,
 she has managed to seal the floor off to its denizens, by barricading
 all entrances and exits but those barriers are unstable and "glitchy".
@@ -121,8 +114,7 @@ try to you see back into "Reality", and you can see the mundane life in
 a regular hospital, or just hear muffled sounds or smells on a success
 with complications.
 
-=== Wake-up room: 504
-<ssub:wake_up_room>
+=== Wake-up room: 504<wake_up_room>
 #figure(image("../resources/img/wakeup-room.png", width: 7.0cm),
   caption: [
     Wakeup Room
@@ -154,18 +146,17 @@ recognise as the symbol of the Death Angel Golab.
 
 #figure(image("../resources/img/golab.png", width: 4.0cm),
   caption: [
-    Tattoo~@KULT:core[p.~215]
+    Tattoo~@KULT-core[p.~215]
   ]
 )
 
-=== Corridors
-<ssub:Corridors>
+=== Corridors<Corridors>
 The corridors have neon lights with motion sensors, when they wake up
 everything is dark outside, and the lights turn on wherever they walk,
 with that unnerving '#emph[tick-tick-humm];' that neon lights tubes do.
 The walls have a few art prints of a painter named ”Guy
 Vauquelin”#footnote[which you can use to tie it to the published
-scenario "The Atrocity Exhibition" in~@KULT:taroticum[p.~94];];, and
+scenario "The Atrocity Exhibition" in~@KULT-taroticum[p.~94];];, and
 there are some indoor plants that are surprisingly well kept and alive.
 Apart from that I always ran this as an empty hospital, but, depending
 on the lines and veils of your players, you can go hog wild here and add
@@ -175,8 +166,7 @@ Inferno, you can make the walls move and ripple while you hear the sound
 of people from the other side of the veil or children playing on a
 playground from the dream of one of the still comatose patients.
 
-=== Lifts
-<ssub:lifts>
+=== Lifts<lifts>
 They will fall into their shafts the first time they are visited door
 closes, and then they reappear as if nothing happened roll to .
 
@@ -191,19 +181,17 @@ above.
 
 Regardless of what they do, they will always end up on floor 5.
 
-=== Emergency Exits ()
-<ssub:emergency_exits>
+=== Emergency Exits ()<emergency_exits>
 All exits are barricaded and warded by
-#link(<ssub:joanna_o_banion>)[Joanna O’Banion] against intruders from
+#link(<joanna_o_banion>)[Joanna O’Banion] against intruders from
 #strong[Inferno];. If players try to see through the illusion close to
 any exit the will see some of the citizens or the shadow of the
-#strong[Black Citadels];~@KULT:core[p.316];.
+#strong[Black Citadels];~@KULT-core[p.316];.
 
 They can break off the leg of a chair or take an IV stand pole which
 make up the barricade as a makeshift weapon.
 
-=== Other patient rooms: 503
-<ssub:other_patient_rooms_503>
+=== Other patient rooms: 503<other_patient_rooms_503>
 Room 503 is listed three times on the map#footnote[which was done by
 mistake originally];, and it has 2 patients a catholic priest Paolo de
 Coppi, and a mayor Colin Malone. There’s a newspaper on Colin’s bedstand
@@ -220,8 +208,7 @@ have passed - the bodies are withered but still recognizable.
 All changes in the \"past\" rooms will affect the rooms in the future,
 the realization of that should trigger a.
 
-=== Other patient rooms: 50x
-<ssub:other_patient_rooms>
+=== Other patient rooms: 50x<other_patient_rooms>
 These rooms are filled with other comatose patients. Since Joanna
 O’Banion is a very diligent scientist as well as a skilled alchemist,
 some of the patients will share a (uncanny) likeness with our
@@ -256,10 +243,9 @@ that is trapped here.
 As far as the protagonists can see the control group has endured the
 same #strong[medical] procedures, but none of the "experimental" stuff.
 
-=== Staff Room ()
-<ssub:staff_room>
+=== Staff Room ()<staff_room>
 This room is locked, but the key can be found with the
-#link(<ssub:orderly>)[orderly];~(p.~). Also the criminal~(p.~) can use
+#link(<orderly>)[orderly];~(p.~). Also the criminal~(p.~) can use
 their advantage of , or someone can try to force the door open by , this
 last option will always be loud and get the attention of the orderly.
 
@@ -290,8 +276,7 @@ used and some chairs and a crappy table, if someone tries to there are
 people moving through the room, staff from the other side of the veil.
 ]
 
-=== Laboratory ()
-<ssub:laboratory>
+=== Laboratory ()<laboratory>
 The lab is a tidy room, the shelves are nicely sorted and the bottles of
 various chemicals are neatly labelled. In the corner there is a locked
 fridge with a glass door filled with medical samples, some of them being
@@ -305,8 +290,7 @@ dodecahedrons (whiskey stones). And two bottles of white wine from 1912
 with a worn label referencing this as custom made for "RMS
 T\_t\_\_\_c"#footnote[RMS Titanic];.
 
-=== Reception
-<ssub:reception>
+=== Reception<reception>
 In my game the reception never came up as a meaningful location I kept
 it as a backup solution for the #strong[staff room] so instead of
 breaking open the door of the staff room I would still let the players
@@ -314,16 +298,14 @@ do an or to find the #strong[pistol];. There is a computer and some
 drawers where the protagonists might find the #strong[master keys/ID
 card];.
 
-=== The Office ()
-<ssub:the_office>
-This is where #link(<ssub:joanna_o_banion>)[Joanna O’Banion] has her
+=== The Office ()<the_office>
+This is where #link(<joanna_o_banion>)[Joanna O’Banion] has her
 "Lair", it is filled with a few workstations which all don’t work she
 has to light the office with candles, though the purple glow of the
 magic circle carved into the ground and inlaid with tin does provide a
 bit of illumination in the back of the room.
 
-=== Other Rooms
-<ssub:other_rooms>
+=== Other Rooms<other_rooms>
 - Toilets
 
 - Waste Room ()
@@ -336,13 +318,11 @@ These rooms are just set dressing, I have not planned anything with
 them, but feel free to introduce new and terrible surprises for your
 players in here.
 
-== Escape
-<sub:escape>
+== Escape<escape>
 There are two intended ways to escape from "The Ward", adjust them to
 your game as needed.
 
-=== Option 1
-<ssub:escape_option1>
+=== Option 1<escape_option1>
 One character willingly staying with Dean or Joanna will end the
 scenario and catapult the other characters out of #strong[Inferno] into
 their own bodies in the hospital, but not to the comatose ward from the
@@ -352,11 +332,10 @@ hospital gown, where the nearest doctor or nurse will notice them and
 bring them to their room one floor below, which they have apparently
 never left.
 
-=== Option 2
-<ssub:escape_option2>
+=== Option 2<escape_option2>
 There is a binding circle in the laboratory. The room is locked, but the
 door can be forced open or the PCs can use the staff keys found on the
-#link(<ssub:orderly>)[orderly];. Stepping into the circle without
+#link(<orderly>)[orderly];. Stepping into the circle without
 preparation will cause its magic to violently interact with the magic of
 the binding circle on the PCs back, dealing to . Using whatever they
 find in the lab or otherwise they can try to roll to destroy the circle.
@@ -377,12 +356,11 @@ the GM chooses one of
 - they leave their body in #strong[Inferno];, but return as a
   disembodied soul.
 
-- they have to exchange someone from #strong[Elysium];~@KULT:core[p.~224]
+- they have to exchange someone from #strong[Elysium];~@KULT-core[p.~224]
   to take their position here.
 ]
 
-== Home
-<sub:home>
+== Home<home>
 To close this scenario and tie in with the opening scene, I end the game
 with an improvised scene playing one year after the last scene. You can
 tie in the personal relations and extrapolate what might have happened
